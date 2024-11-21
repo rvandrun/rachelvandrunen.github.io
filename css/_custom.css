@@ -1,0 +1,55 @@
+
+img {
+  float: right;
+  margin-left: 20px; /* Adds space between the text and the image */
+  width: 200px; /* Adjust size as needed */
+  height: auto; /* Ensures the image maintains aspect ratio */
+}
+
+p {
+  text-align: left !important; /* Forces left alignment */
+}
+
+.max-width {
+  max-width: 60% !important; /* Override to allow full width */
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.px3 {
+  padding-left: 20px; /* Adjust padding as needed */
+  padding-right: 20px;
+}
+
+body.ltr {
+  /* Add any additional styling for left-to-right layout */
+}
+
+#about h1 {
+  display: none;   /* Hides the empty h1 element */
+  margin: 0;       /* Removes any margin around the h1 */
+  padding: 0;      /* Removes any padding around the h1 */
+}
+
+#about h2 {
+  display: none;   /* Hides the empty h1 element */
+  margin: 0;       /* Removes any margin around the h1 */
+  padding: 0;      /* Removes any padding around the h1 */
+}
+
+#writing .title-icon {
+    width: 34px; /* Adjust size as needed */
+    height: auto;
+    margin-right: 8px;
+    vertical-align: text-bottom;
+}
+
+#awards .title-icon {
+    width: 34px; /* Adjust size as needed */
+    height: auto;
+    margin-right: 4px;
+    vertical-align: text-bottom;
+}
